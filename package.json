@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/statnett/vue-plotly.git"
+    "url": "https://github.com/rinziv/vue-plotly.git"
   },
   "files": [
     "src",
