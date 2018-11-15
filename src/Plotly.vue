@@ -3,8 +3,12 @@
 </template>
 <script>
 import Plotly from 'plotly.js/dist/plotly-basic'
+import mylocale from 'plotly.js/lib/locales/it'
 import debounce from 'lodash/debounce'
 import defaults from 'lodash/defaults'
+
+Plotly.register(mylocale);
+Plotly.setPlotConfig({locale: 'it'})
 
 const events = [
   'click',
