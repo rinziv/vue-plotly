@@ -2,7 +2,7 @@
 <div ref="container" class="vue-plotly"/>
 </template>
 <script>
-import Plotly from 'plotly.js/dist/plotly-basic'
+import Plotly from 'plotly.js/dist/plotly-cartesian'
 import mylocale from 'plotly.js/lib/locales/it'
 import debounce from 'lodash/debounce'
 import defaults from 'lodash/defaults'
